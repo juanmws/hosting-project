@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+/* LEGAL */
+#legal {
+	padding: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+/* PAGE TITLE */
+#legal .page-title {
+	font-size: 38px;
+	color: #212529;
+	text-align: center;
+}
+/* SECTION HEADER */
+#legal h1 {
+	font-size: 36px;
+	color: #333;
+	font-weight: 100;
+}
+/* SUB HEADING */
+#legal h2 {
+	font-size: 28px;
+	color: #E01E26;
+	font-weight: 500;
+}
+/* PARAGRAPH INDENT AND FONTSIZE   */
+#legal p {
+	margin: 10px 35px 10px;
+	font-size: 16px;
+	font-weight: 300;
+}
+/* INDENT SECTION NUMBER */
+#legal b {
+	font-size: 18px;
+	color: #000000;
+	font-weight: 900;
+}
+#legal .section {
+	padding: 5px;
+}
+#legal .sub-section {
+	margin-bottom: 15px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 426px) {
+  #legal p,
+	#legal b {
+		text-align: center;
+	}
+}
+@media only screen and (min-device-width: 680px) and (max-device-width: 768px) {
+  #legal p,
+  #legal b {
+    text-align: left;
+  }
+}
+@media print {
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
